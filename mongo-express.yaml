@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: mongo-express      # Name of the container (arbitrary but descriptive)
-        image: mongo-express:latest     # Docker image from Docker Hub (no tag = latest)
+        image: mongo-express    # Docker image from Docker Hub (no tag = latest)
         ports:
         - containerPort: 8081    # The port Mongo Express listens on inside the container
 
