@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Store environment variables used throughout the pipeline
         DOCKER_CREDENTIALS_ID = 'subletb-dockerhub'        // Jenkins credential ID for authenticating with Docker Hub
-        GITHUB_URL = 'https://github.com/subletb-cit/225-lab3-8.git'  // GitHub repository containing Kubernetes YAML files
+        GITHUB_URL = 'https://github.com/subletb/225-lab3-8.git'  // GitHub repository containing Kubernetes YAML files
         KUBECONFIG = credentials('subletb-225')             // Jenkins stored credential for accessing your Kubernetes cluster
     }
 
